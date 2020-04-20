@@ -100,19 +100,22 @@
         </div>
 
 
-        <div class="row">
-          <div class="col-md-5 mb-3">
-            <label for="country">Country</label>
-            <select class="custom-select d-block w-100" id="country" required>
-              <option value="">Choose...</option>
-              <option>United States</option>
-              <option>India</option>
-            </select>
-            <div class="invalid-feedback">
-              Please select a valid country.
-            </div>
+        <div class="mb-3">
+          <label for="phone">Phone <span class="text-muted"></span></label>
+          <input type="number" class="form-control" id="phone" placeholder="xxxxx-xxxxx">
+          <div class="invalid-feedback">
+            Please enter a valid phone
           </div>
         </div>
+
+        <div class="mb-3">
+          <label for="phone">Address <span class="text-muted"></span></label>
+          <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Address"></textarea>
+          <div class="invalid-feedback">
+            Please enter a valid address
+          </div>
+        </div>
+
 
         <!-- <hr class="mb-4"> -->
         <button class="btn btn-primary btn-block" type="submit">Submit</button>
